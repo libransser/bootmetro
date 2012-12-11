@@ -5650,24 +5650,43 @@ input[type="submit"].btn.btn-mini {
   content: "";
   line-height: 0;
 }
-.tabbable:after {
-  clear: both;
+
+#top-info > a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-left: 10px;
+  font-family: 'IcoMoon';
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 40px;
+  color: #5A5A5A;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+  vertical-align: 24%;
+  border-style: solid;
+  border-width: 2px;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  outline: 0;
 }
-.tab-content {
-  overflow: auto;
-}
-.tabs-below > .nav-tabs,
-.tabs-right > .nav-tabs,
-.tabs-left > .nav-tabs {
-  border-bottom: 0;
+
+#top-info > a b {
+  font-size: 32px;
+  line-height: 40px;
 }
 .tab-content > .tab-pane,
 .pill-content > .pill-pane {
   display: none;
 }
-.tab-content > .active,
-.pill-content > .active {
-  display: block;
+
+#header-container {
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: top;
 }
 .tabs-below > .nav-tabs {
   border-top: 1px solid #ddd;
